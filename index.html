@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body bgcolor="black" style="color: white;">
+  <center>
 
-<h2>Image Maps</h2>
-<p>click the computer it will show another page</p>
-
-<img src="image/bekasi-solid-wood-writing-study-table-study-laptop-desk-with-two-drawers-one-door-rustic-teak-finish-404942.webp" alt="computer" usemap="#workmap"  >
+<h2 style="border: 2px solid rgb(255, 175, 71); padding-top: 5px;  padding-bottom: 5px;">Image Mapping</h2>
+<p><u>Click Object and Shop that related Object</u></p>
+<pre >
+      <ul style="list-style-type: none;">
+        <li>Laptop</li>
+        <li>Flower Pot</li>
+        <li>Night Light (Name therla)</li>
+        <li>Photo Frame</li>
+      </ul>
+</pre>
+<img src="image/tableproducts.webp" alt="worktable" usemap="#workmap" style="border: 2 px rgb(25, 153, 192);"  >
 
 <map name="workmap">
-  <area shape="rect" coords="574,367,332,224" alt="Computer" href="https://www.linkedin.com/in/nanda-kumar-449175170/?originalSubdomain=in" onclick="product()">
-  
+  <area target="_self" alt="laptop" title="laptop" href="https://www.flipkart.com/computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a1" coords="218,83,124,85,122,144,129,154,228,150,220,137,219,108" shape="poly" onclick="laptop()" >
+
+  <area target="_self" alt="photo frame" title="photo frame" href="https://www.flipkart.com/sunwolcreations-wood-wall-photo-frame/p/itm94d79de1b109b?pid=PHFH7PZWGRENM39G&lid=LSTPHFH7PZWGRENM39GFQS1TR&marketplace=FLIPKART&q=photo+frame&store=arb%2Frm9%2Fhzf&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=f57ff642-e22d-484f-bad1-fdcca2d488b0.PHFH7PZWGRENM39G.SEARCH&ppt=sp&ppn=sp&ssid=4o68l2ce4w0000001743271320443&qH=738be6ca0da6caa0" coords="146,0,315,24" shape="rect" onclick="photoFrame()">
+
+
+  <area target="_self" alt="Crystal Ball Night Light" title="Crystal Ball Night Light" href="https://www.flipkart.com/reena-enterprises-3d-solar-system-lamp-led-base-decorative-night-light-home-gifts/p/itmf39d2a4f6b20a?pid=TLPH7Z82WH6DUGZF&lid=LSTTLPH7Z82WH6DUGZFLX1F63&marketplace=FLIPKART&q=night+bowl+light&store=jhg%2Farb%2F1mt%2Fkyh%2Fabc%2Fulv&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=44e3a455-b7e7-4e1a-8359-31ebd9ba2c63.TLPH7Z82WH6DUGZF.SEARCH&ppt=sp&ppn=sp&ssid=2aqaqkrdtc0000001743271275592&qH=f4bbcf92c62af722" coords="294,125,10" shape="circle" onclick="nightLight()" >
+
+
+  <area target="_self" alt="flower pot" title="flower pot" href="https://www.flipkart.com/adirsa-artificial-plants-home-office-decor-mix-color-decorative-piece-rose-multicolor-wild-flower-pot/p/itm05ff47d5bbbf7?pid=ARFH8PC3DNBQWYYW&lid=LSTARFH8PC3DNBQWYYWSS2UZZ&marketplace=FLIPKART&q=flower+pot&store=h1m%2Fum7%2Fsd1%2Foyg%2Farb%2Fg0v%2Ftyl%2Farb%2Fg0v%2F6vh&srno=s_1_12&otracker=search&otracker1=search&fm=organic&iid=en_Iqxh0eTQVyk2Em1ZzOdZsOKGXLllHjuTx2ABOODb-DEwhuk_E1JOVpG0SqsCUIhG1gAkZ_jSNb_BO1eoGR6Syw%3D%3D&ppt=browse&ppn=browse&ssid=lguu58kl8w0000001743271185098&qH=5ec35309ee007391" coords="335,133,341,152,352,152,355,142,358,130,353,121,341,123,342,113,337,105,330,106,338,97,343,93,343,85,341,76,340,69,346,69,350,73,355,76,356,68,362,67,368,74,374,79,382,79,383,85,367,110,366,118" shape="poly" onclick="flowerPot()">
 </map>
+</center>
 <script>
-    function product(){
-        alert("Do you know about this product detail??");
+    function laptop(){
+        alert("Do you shop on flipkart??");
+    }
+    function flowerPot(){
+        alert("Do you shop on flipkart??");
+    }
+    function nightLight(){
+        alert("Do you shop on flipkart??");
+    }
+    function photoFrame(){
+        alert("Do you shop on flipkart??");
     }
 </script>
 
